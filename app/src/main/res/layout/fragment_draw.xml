@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/drawContainer"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center_vertical|center_horizontal">
+
+
+    <com.example.i_fireworks.views.OledGrid
+        android:id="@+id/oledGrid"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toTopOf="@+id/showGridTb"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+    <ToggleButton
+        android:id="@+id/zoomBtn"
+        android:layout_width="56dp"
+        android:layout_height="wrap_content"
+        android:drawableTop="@drawable/ic_baseline_zoom_in_24"
+        android:textSize="0dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/brushBtn"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/oledGrid" />
+
+
+
+    <ToggleButton
+        android:id="@+id/eraseBtn"
+        android:layout_width="56dp"
+        android:layout_height="wrap_content"
+        android:drawableTop="@drawable/ic_eraser__1_"
+        android:textSize="0dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/showGridTb"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintHorizontal_chainStyle="spread"
+        app:layout_constraintStart_toEndOf="@+id/brushBtn"
+        app:layout_constraintTop_toBottomOf="@+id/oledGrid" />
+
+    <ToggleButton
+        android:id="@+id/brushBtn"
+        android:layout_width="56dp"
+        android:layout_height="wrap_content"
+        android:drawableTop="@drawable/ic_baseline_brush_24"
+        android:textSize="0dp"
+        android:checked="true"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/eraseBtn"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/zoomBtn"
+        app:layout_constraintTop_toBottomOf="@+id/oledGrid" />
+
+    <ToggleButton
+        android:id="@+id/showGridTb"
+        android:layout_width="56dp"
+        android:layout_height="wrap_content"
+        android:checked="true"
+        android:text="grid"
+        android:textOff="grid"
+        android:textOn="grid"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/eraseBtn"
+        app:layout_constraintTop_toBottomOf="@+id/oledGrid" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

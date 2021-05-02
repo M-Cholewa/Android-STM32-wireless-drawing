@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">i_fireworks</string>
+    <string name="DEVICE_READY">READY TO FIND HC</string>
+    <string name="HC_PAIRED">HC-05 PAIRED</string>
+    <string name="HC_CONNECTED">HC-05 CONNECTED</string>
+    <string name="CONNECTING">CONNECTING(…, &#8230;)</string>
+    <string name="ERR_BT_MODULE_NOT_FOUND">DEVICE BT MODULE NOT FOUND</string>
+    <string name="ERR_HC05_NOT_FOUND">HC-05 MODULE NOT FOUND</string>
+    <string name="ERR_NO_BT_PERMISSION">NO BT PERMISSION</string>
+    <string name="ERR_CANT_CONNECT_TO_HC">COULDNT CONNECT TO HC-05</string>
+
+    <string name="ERR_COULDNT_SEND_MSG">COULDNT SEND MESSAGE</string>
+</resources>

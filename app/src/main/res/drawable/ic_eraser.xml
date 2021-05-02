@@ -1,0 +1,31 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="24dp"
+    android:height="24dp"
+    android:viewportWidth="512"
+    android:viewportHeight="512"
+    android:tint="?attr/colorControlNormal">
+    <path
+        android:fillColor="@android:color/white"
+        android:pathData="m92.6,365.523a55.277,55.277 0,0 0,51.517 33.971h167.883a8,8 0,0 0,5.657 -2.343l16,-16 131.862,-131.862a47.849,47.849 0,0 0,0 -67.59l-87.725,-87.724a47.848,47.848 0,0 0,-67.588 0l-131.863,131.862c-0.051,0.051 -0.095,0.107 -0.144,0.16l-0.006,-0.006 -74.666,78.8a55.277,55.277 0,0 0,-10.927 60.732zM321.519,105.289a31.829,31.829 0,0 1,44.962 0l87.725,87.725a31.828,31.828 0,0 1,0 44.961l-22.206,22.205 -132.686,-132.686zM115.127,315.812 L184.155,242.963 202.343,261.151 213.657,249.837 195.313,231.494 288,138.808 396.686,247.494 322.343,321.837 333.657,333.151 408,258.808 420.686,271.494 328,364.181 229.657,265.837 218.343,277.151 316.686,375.494 308.686,383.494h-164.572a40.048,40.048 0,0 1,-28.987 -67.682z" />
+    <path
+        android:fillColor="@android:color/white"
+        android:pathData="m429.657,237.151 l16,-16a8,8 0,0 0,0 -11.314l-16,-16 -11.314,11.314 10.344,10.343 -10.344,10.343z" />
+    <path
+        android:fillColor="@android:color/white"
+        android:pathData="m176,279.494h16v16h-16z" />
+    <path
+        android:fillColor="@android:color/white"
+        android:pathData="m160,295.494h16v16h-16z" />
+    <path
+        android:fillColor="@android:color/white"
+        android:pathData="m16,415.494h480v16h-480z" />
+    <path
+        android:fillColor="@android:color/white"
+        android:pathData="m72,383.494h16v16h-16z" />
+    <path
+        android:fillColor="@android:color/white"
+        android:pathData="m34.291,365.131l11.312,-11.312l23.996,23.996l-11.312,11.312z" />
+    <path
+        android:fillColor="@android:color/white"
+        android:pathData="m413.657,369.837a8,8 0,0 0,-11.314 0l-10.343,10.344 -10.343,-10.344a8,8 0,0 0,-11.314 0l-16,16 11.314,11.314 10.343,-10.343 10.343,10.343a8,8 0,0 0,11.314 0l10.343,-10.343 10.343,10.343a8,8 0,0 0,5.657 2.343h48v-16h-44.686z" />
+</vector>
